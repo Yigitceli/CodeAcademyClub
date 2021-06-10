@@ -1,0 +1,119 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: lightsalmon;
+}
+header {
+  padding: 20px 20px 5px 20px;
+  margin: 0;
+  display: flex;
+  background-color: teal;
+}
+nav ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  justify-content: start;
+  align-content: flex-end;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 1.2em;
+  color: lightsalmon;
+}
+.intro {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.intro h1 {
+  display: flex;
+  color: coral;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  width: 100%;
+  justify-content: center;
+  padding: 1%;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.summary h1 {
+  color: yellow;
+  font-size: 2em;
+}
+.summary p {
+  color: white;
+  letter-spacing: 0.15em;
+  font-size: 1.1em;
+}
+.summary .imgs {
+  display: flex;
+  justify-content: space-around;
+}
+.imgs img {
+  width: 30%;
+}
+.quote {
+  margin: 5% 0;
+  padding-bottom: 5%;
+
+  background-color: teal;
+  display: flex;
+  flex-direction: column;
+}
+.quote h1 {
+  margin: 1%;
+  font-size: 3.2rem;
+  color: yellow;
+}
+.quote p {
+  color: yellow;
+  margin: 1%;
+}
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.join .images {
+  display: flex;
+  justify-content: space-around;
+}
+.join .images img {
+  width: 30%;
+}
+.join-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.join .join-section h1 {
+  color: yellow;
+  font-size: 3em;
+}
+.join-section img {
+  width: 50%;
+  height: auto;
+}
+.join-section p {
+  color: yellow;
+  font-size: 2.5em;
+  margin: 0.8% 0;
+}
+footer {
+  padding: 20px 20px 5px 20px;
+  margin: 0;
+  display: flex;
+  background-color: teal;
+}
